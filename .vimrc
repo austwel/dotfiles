@@ -10,9 +10,10 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'sheerun/vim-polyglot'
 Plugin 'ycm-core/YouCompleteMe'
+Plugin 'junegunn/goyo.vim'
 
 Plugin 'tlhr/anderson.vim'
-Plugin 'alessandroyorba/aludin'
+Plugin 'alessandroyorba/alduin'
 call vundle#end()
 
 filetype plugin indent on
