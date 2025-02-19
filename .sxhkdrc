@@ -1,0 +1,24 @@
+# Reload
+alt + shift + s
+  pkill -USR1 -x sxhkd ;\
+  notify-send "sxhkd: sxhkd has been restarted."
+
+# Alt+Enter Terminal
+alt + Return
+  cutefish-terminal
+
+# Launcher
+Super_L; @Super_L
+  cutefish-launcher
+
+# Sound
+XF86Audio{Lower,Raise}Volume
+  amixer -D pulse sset Master {'2%-','2%+'}
+XF86Audio{Pause,Play}
+  playerctl play-pause
+XF86Audio{Prev,Next}
+  playerctl {previous,next}
+
+# Custom Keys
+XF86Explorer
+  cutefish-filemanager

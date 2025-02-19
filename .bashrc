@@ -120,3 +120,6 @@ fi
 
 alias py=python3
 alias python=python3
+
+export LC_ALL="en_AU.utf8"
+export LANG="en_AU.utf8"
